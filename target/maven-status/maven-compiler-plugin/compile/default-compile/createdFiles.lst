@@ -1,0 +1,8 @@
+za\co\assessment\swift\domain\MT195.class
+za\co\assessment\swift\infrastructure\Config.class
+za\co\assessment\swift\domain\MT101.class
+za\co\assessment\swift\infrastructure\SendMessageToQ.class
+za\co\assessment\swift\application\PaymentRouterApplication.class
+za\co\assessment\swift\infrastructure\ValidatedPaymentListener.class
+za\co\assessment\swift\application\ServletInitializer.class
+za\co\assessment\swift\infrastructure\RoutingRulesHelper.class
