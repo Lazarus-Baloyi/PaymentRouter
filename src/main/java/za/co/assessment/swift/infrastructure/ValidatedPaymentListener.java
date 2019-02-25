@@ -13,7 +13,7 @@ public class ValidatedPaymentListener {
 
 	private PaymentRouterApplication paymentRouterApplication;
 	
-	@JmsListener(destination = "validated-payment-Q")
+	@JmsListener(destination = "validated-payment-Q", containerFactory = "activeMQConnectionFactory")
     public void receiveMessage(MT101 mt101) throws JMSException{
 		paymentRouterApplication.determineDestination(mt101);
     }	

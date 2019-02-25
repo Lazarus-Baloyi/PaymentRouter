@@ -5,7 +5,7 @@ public class MT195 {
 	private String relatedReference;
 	private String queries;
 	private String restOfXmlMessage;
-
+	private String ackNak;
 	
 	public MT195() {
 
@@ -49,7 +49,15 @@ public class MT195 {
 				+ relatedReference + ", queries=" + queries + ", restOfXmlMessage=" + restOfXmlMessage + "]";
 	}
 	
-	
+	public String getAckNak() {
+		return ackNak;
+	}
+
+
+
+	public void setAckNak(String ackNak) {
+		this.ackNak = ackNak;
+	}
 	
 	
 }

@@ -15,29 +15,9 @@ public class MT101 {
 	private String status;
 	
 	
-	public MT101(String senderReference, int messageIndex, String orderingCustomer, String requestedExecutionDate,
-			String transactionReference, String transactionCurrencyAmount, String beneficiary, String chargesDetail,
-			String idType, String restOfXmlMessage, String status) {
-		super();
-		this.senderReference = senderReference;
-		this.messageIndex = messageIndex;
-		this.orderingCustomer = orderingCustomer;
-		this.requestedExecutionDate = requestedExecutionDate;
-		this.transactionReference = transactionReference;
-		this.transactionCurrencyAmount = transactionCurrencyAmount;
-		this.beneficiary = beneficiary;
-		this.chargesDetail = chargesDetail;
-		this.idType = idType;
-		this.restOfXmlMessage = restOfXmlMessage;
-		this.status = status;
-	}
-
-		
 		public MT101() {
 		
 		}
-
-
 
 	public String getSenderReference() {
 		return senderReference;
@@ -136,8 +116,12 @@ public class MT101 {
 				+ orderingCustomer + ", requestedExecutionDate=" + requestedExecutionDate + ", transactionReference="
 				+ transactionReference + ", transactionCurrencyAmount=" + transactionCurrencyAmount + ", beneficiary="
 				+ beneficiary + ", chargesDetail=" + chargesDetail + ", idType=" + idType + ", restOfXmlMessage="
-				+ restOfXmlMessage + ", status=" + status + "]";
+				+ restOfXmlMessage + ", status=" + status + ",  + ]";
 	}
+
+
+
+
 	
 	
 }
