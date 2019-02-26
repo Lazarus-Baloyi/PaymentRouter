@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: PaymentRouter
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Lazarus
+Implementation-Vendor-Id: za.co.assessment
+Build-Jdk: 1.8.0_191
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/PaymentRouter
+Created-By: Maven Integration for Eclipse
+
